@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鮮茶道-店家資訊</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo-container {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 10px;
+            background: white;
+            border-radius: 50%;
+            padding: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 50%;
+        }
+        .store-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .slogan {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+        .menu-item:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+        }
+        .menu-icon {
+            margin-right: 15px;
+            font-size: 20px;
+            color: #4CAF50;  /* 綠色系配色 */
+        }
+        .menu-text {
+            font-size: 16px;
+            flex-grow: 1;
+        }
+        .arrow {
+            color: #ccc;
+            font-size: 20px;
+        }
+        .foodpanda {
+            color: #d70f64; /* Foodpanda品牌色 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-container">
+                <img src="/api/placeholder/120/120" alt="鮮茶道" class="logo">
+            </div>
+            <h1 class="store-name">鮮茶道-斗六中山店</h1>
+            <p class="slogan">每一杯都是新鮮好茶</p>
+        </div>
+
+        <a href="http://www.presotea.com.tw/webimages/1718357943161.jpg" class="menu-item" target="_blank">
+            <span class="menu-icon">🌱</span>
+            <span class="menu-text">菜單</span>
+            <span class="arrow">›</span>
+        </a>
+
+        <div class="menu-item">
+            <span class="menu-icon">🕗</span>
+            <span class="menu-text">營業時間: 08:00 - 20:45</span>
+            <span class="arrow">›</span>
+        </div>
+
+        <a href="https://lihi.cc/JWjmm" class="menu-item" target="_blank">
+            <span class="menu-icon">☎️</span>
+            <span class="menu-text">外送專線: 05-537-3221</span>
+            <span class="arrow">›</span>
+        </a>
+
+        <a href="https://www.foodpanda.com.tw/restaurant/b0sr/xian-cha-dao-dou-liu-zhong-shan-dian" class="menu-item" target="_blank">
+            <span class="menu-icon">🐼</span>
+            <span class="menu-text">Foodpanda外送</span>
+            <span class="arrow">›</span>
+        </a>
+
+        <a href="https://order.nidin.shop/menu/10069" class="menu-item" target="_blank">
+            <span class="menu-icon">🍀</span>
+            <span class="menu-text">線上點餐</span>
+            <span class="arrow">›</span>
+        </a>
+    </div>
+</body>
+</html>
